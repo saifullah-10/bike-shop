@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- header area start -->
+  <header class="max-w-[1440px] lg:w-3/4 max-sm:w-[95%] mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="cursor-pointer text-black font-[Poppins] text-4xl font-bold">BIKE SHOP</a>
+      </div>
+      <div class="flex max-sm:hidden">
+        <ul class="menu menu-horizontal px-1 items-center justify-center ">
+          <li class="mx-6"><a class="hover:bg-transparent text-black font-[Poppins] text-base font-medium">Home</a></li>
+          <li class="mx-6"><a class="hover:bg-transparent text-black font-[Poppins] text-base font-medium">Shop</a></li>
+          <li class="mx-6"><a class="hover:bg-transparent text-black font-[Poppins] text-base font-medium">News</a></li>
+          <li class="mx-6"><a class="hover:bg-transparent text-black font-[Poppins] text-base font-medium">Contact</a>
+          </li>
+          <a href="#"><button
+              class="btn bg-[#E76F51] rounded-lg py-2 px-8 text-white hover:bg-[#e76f51] font-[Poppins] font-bold text-xl">Login</button></a>
+
+        </ul>
+      </div>
+      <!-- hamburger  -->
+      <div class="hidden max-sm:block cursor-pointer">
+        <div class="flex flex-col">
+          <div class="w-10 bg-black h-1 rounded-lg"></div>
+          <div class="w-10 h-2 my-2 flex justify-between">
+            <div class="w-1 rounded-[50%] h-1 bg-black"></div>
+            <div class="w-7 h-1 bg-black rounded-lg"></div>
+          </div>
+          <div class="w-10 bg-black h-1 rounded-lg"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header area stop -->
+  <!-- main start -->
+  <main class="max-w-[1440px] lg:w-3/4 max-sm:w-[95%] mx-auto">
+    <!-- hero slider start -->
+    <section class="my-10">
+      <div class="carousel w-full ">
+        <div id="slide1" class="carousel-item relative w-full ">
+          <div class="flex max-sm:flex-col items-center lg:justify-between max-sm:px-4 lg:px-20 lg:py-[100px] bg-[#fdf1ee]">
+            <div class="w-1/2 max-sm:w-3/4 max-sm:mb-10 max-sm:order-1">
+              <h1 class="text-black font-[Poppins] text-6xl font-bold">
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="my-5 text-[rgba(0,0,0,0.80)] font-[Poppins] text-base font-[300]">Amet minim mollit non deserunt
+                ullamco
+                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <a href="#"><button
+                  class="btn bg-[#E76F51] rounded-lg py-2 px-8 text-white hover:bg-[#e76f51] font-[Poppins] font-semibold text-xl">Purchase</button></a>
+            </div>
+            <div class="w-1/2 max-sm:w-full shrink-0">
+              <img src="./images/slider/bike1.png" class="w-full mt-4 mb-12 " />
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class=" text-3xl">❮</a>
+            <a href="#slide2" class=" text-3xl">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex max-sm:flex-col items-center lg:justify-between max-sm:px-4 lg:px-20 lg:py-[100px] bg-[#fdf1ee]">
+            <div class="w-1/2 max-sm:w-3/4 max-sm:mb-10 max-sm:order-1">
+              <h1 class="text-black font-[Poppins] text-6xl font-bold">
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="my-5 text-[rgba(0,0,0,0.80)] font-[Poppins] text-base font-[300]">Amet minim mollit non deserunt
+                ullamco
+                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <a href="#"><button
+                  class="btn bg-[#E76F51] rounded-lg py-2 px-8 text-white hover:bg-[#e76f51] font-[Poppins] font-semibold text-xl">Purchase</button></a>
+            </div>
+            <div class="w-1/2 max-sm:w-full shrink-0">
+              <img src="./images/slider/bike1.png" class="w-full mt-4 mb-12" />
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class=" text-3xl">❮</a>
+            <a href="#slide3" class=" text-3xl">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex max-sm:flex-col items-center lg:justify-between max-sm:px-4 lg:px-20 lg:py-[100px] bg-[#fdf1ee]">
+            <div class="w-1/2 max-sm:w-3/4 max-sm:mb-10 max-sm:order-1">
+              <h1 class="text-black font-[Poppins] text-6xl font-bold">
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="my-5 text-[rgba(0,0,0,0.80)] font-[Poppins] text-base font-[300]">Amet minim mollit non deserunt
+                ullamco
+                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <a href="#"><button
+                  class="btn bg-[#E76F51] rounded-lg py-2 px-8 text-white hover:bg-[#e76f51] font-[Poppins] font-semibold text-xl">Purchase</button></a>
+            </div>
+            <div class="w-1/2 max-sm:w-full shrink-0">
+              <img src="./images/slider/bike1.png" class="w-full mt-4 mb-12" />
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class=" text-3xl">❮</a>
+            <a href="#slide4" class=" text-3xl">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="flex max-sm:flex-col items-center lg:justify-between max-sm:px-4 lg:px-20 lg:py-[100px] bg-[#fdf1ee]">
+            <div class="w-1/2 max-sm:w-3/4 max-sm:mb-10 max-sm:order-1">
+              <h1 class="text-black font-[Poppins] text-6xl font-bold">
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="my-5 text-[rgba(0,0,0,0.80)] font-[Poppins] text-base font-[300]">Amet minim mollit non deserunt
+                ullamco
+                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <a href="#"><button
+                  class="btn bg-[#E76F51] rounded-lg py-2 px-8 text-white hover:bg-[#e76f51] font-[Poppins] font-semibold text-xl">Purchase</button></a>
+            </div>
+            <div class="w-1/2 max-sm:w-full shrink-0">
+              <img src="./images/slider/bike1.png" class="w-full mt-4 mb-12" />
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class=" text-3xl">❮</a>
+            <a href="#slide1" class=" text-3xl">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero slider stop -->
+    <!-- featured start -->
+    <section class="my-20">
+      <div class="mb-10">
+        <h1 class="text-center font-[Poppins] text-5xl font-semibold mb-4">Fetured Bikes In This Year</h1>
+        <div class="flex items-center flex-col">
+          <p class="text-[#E76F51] mb-2">Best bike collection</p>
+          <div class="w-16 h-[2px] rounded-lg bg-[#E76F51]"></div>
+        </div>
+      </div>
+      <div class="flex max-sm:flex-col max-sm:items-center lg:justify-between lg:gap-4 max-sm:gap-10">
+        <div><img src="./images/others/feature-bike.png" alt=""></div>
+        <div><img src="./images/others/feature-bike.png" alt=""></div>
+        <div><img src="./images/others/feature-bike.png" alt=""></div>
+      </div>
+    </section>
+    <!-- featured stop -->
+    <!-- news start  -->
+<section class="my-10">
+  <div>
+    <h1 class="mb-10 text-center font-[Poppins] text-5xl font-semibold">Latest News</h1>
+    <div class="flex max-sm:flex-col gap-5 items-center">
+      <div class="card w-96 py-4 px-3 bg-base-100 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+        <figure class="">
+          <img src="./images/others/latest1.png" alt="Shoes" class="w-full" />
+        </figure>
+        <div class="card-body items-start p-0 mt-5">
+          <h2 class="card-title font-[Poppins] text-[28px] font-semibold leading-[48px]">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] font-[Poppins] text-base leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <div class="card-actions mt-5">
+           <a href="#"> <button class="bg-[#E76F51] hover:bg-[#E76F51] btn text-white px-5 text-[18px] font-medium">Read More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 py-4 px-3 bg-base-100 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+        <figure class="">
+          <img src="./images/others/latest2.png" alt="Shoes" class="w-full" />
+        </figure>
+        <div class="card-body items-start p-0 mt-5">
+          <h2 class="card-title font-[Poppins] text-[28px] font-semibold leading-[48px]">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] font-[Poppins] text-base leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <div class="card-actions mt-5">
+           <a href="#"> <button class="bg-transparent hover:bg-transparent btn text-[#E76F51] border-2 border-[#E76F51] hover:border-[#E76F51] px-5 text-[18px] font-medium">Read More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 py-4 px-3 bg-base-100 shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)]">
+        <figure class="">
+          <img src="./images/others/latest3.png" alt="Shoes" class="w-full" />
+        </figure>
+        <div class="card-body items-start p-0 mt-5">
+          <h2 class="card-title font-[Poppins] text-[28px] font-semibold leading-[48px]">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] font-[Poppins] text-base leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+          <div class="card-actions mt-5">
+           <a href="#"> <button class="bg-transparent hover:bg-transparent btn text-[#E76F51] border-2 border-[#E76F51] hover:border-[#E76F51] px-5 text-[18px] font-medium">Read More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- news stop -->
+    <!-- client start-->
+<section>
+  <div>
+    <h1></h1>
+  </div>
+  <div>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="./images/others/user-1.png" class="w-[60%]" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <p class="font-[Poppins] text-base leading-7 tracking-[0.2px]">Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+        <div class="rating">
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#e77c40]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#e77c40]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#e77c40]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#e77c40]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#e77c40]" checked/>
+        </div>
+        <h2 class="font-[Poppins] text-[14px] font-medium leading-6 text-[#23a6f0]">Regina Miles</h2>
+        <h3 class="font-[Poopins] font-medium">Banker</h3>
+      </div>
+    </div>
+  </div>
+</section>
+    
+    <!-- client stop -->
+  </main>
+  <!-- main stop -->
+</body>
+
+</html>
